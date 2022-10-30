@@ -22,10 +22,12 @@ std::string queue_application::next(int new_number) {
      
     std::stringstream msg;
 
-    msg << "partial sum of last " << k_ << " numbers (" \
-    
-    
-    << sum_k_ << std::endl;
+    msg << "partial sum of last " << k_ << " numbers ( ";
+    auto b=q_.begin();
+    while ( b != q_.end() ) {
+        msg << *b << ( (++b == q_.end())? " ":" + " );
+    }
+    msg << ") = " << sum_k_ << std::endl;
 
     return msg.str();
 }
