@@ -1,6 +1,8 @@
 #ifndef ITERABLE_QUEUE
 #define ITERABLE_QUEUE
 
+// https://stackoverflow.com/a/5984198/1585486
+
 #include <queue>
 #include <deque>
 #include <iostream>
