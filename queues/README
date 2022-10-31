@@ -1,3 +1,22 @@
+## Goal:
+
+The program should add the latest 4 numbers typed at the command line.
+
+
+## Instructions using the make file provided:
+
+to build the app run
+$ make all
+
+to build and run the app:
+$ make run
+
+To end type Ctr + C
+
+To remove all compiled files and the app itself:
+$ make clean
+
+
 The output of the program is:
 
 $ output/app 
